@@ -1,0 +1,55 @@
+body {
+  background-color: #90c9c0;
+}
+
+header, footer {
+  background-color: #006d55;
+  color: white;
+  position: fixed;
+  height: 50px;
+  left: 0;
+  right: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+header {
+  top: 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+footer {
+  bottom: 0;
+
+}
+
+main {
+  padding: 80px 0;
+}
+
+.birds {
+  xbackground-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 700px ;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.bird {
+  xbackground-color: bisque;
+  display: flex;
+  gap: 20px;
+
+  .bird-photo img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  .bird-text {
+    .bird-name {
+      font-size: 1.4em;
+      margin-bottom: 8px;
+    }
+    .bird-description {}
+  }
+}
